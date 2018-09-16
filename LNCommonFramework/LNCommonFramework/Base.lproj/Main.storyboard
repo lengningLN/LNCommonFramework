@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVP-QK-3Dq" customClass="LNImagePositionButton">
+                                <rect key="frame" x="157.5" y="60" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.78734217461399525" green="0.93532107489780447" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="NVg-Nz-RuV"/>
+                                    <constraint firstAttribute="width" constant="60" id="dRr-dv-VwF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="title" image="Image">
+                                    <color key="titleColor" red="0.37122459879339853" green="0.42284043363695234" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="ln_titleImageMargin">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="ln_imagePosition">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u6L-At-itP" customClass="LNImagePositionButton">
+                                <rect key="frame" x="157.5" y="160" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.7873421746" green="0.93532107490000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="dmn-AE-ouk"/>
+                                    <constraint firstAttribute="width" constant="60" id="xIV-pu-uSE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="左边" image="Image">
+                                    <color key="titleColor" red="0.37122459880000003" green="0.42284043360000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="ln_titleImageMargin">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="ln_imagePosition">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEf-k8-Xbq" customClass="LNImagePositionButton">
+                                <rect key="frame" x="157.5" y="260" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.7873421746" green="0.93532107490000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="QDY-pk-0jE"/>
+                                    <constraint firstAttribute="width" constant="60" id="qN2-Ut-I5M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="左边" image="Image">
+                                    <color key="titleColor" red="0.37122459880000003" green="0.42284043360000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="ln_titleImageMargin">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="ln_imagePosition">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ZX-W9-Lsh" customClass="LNImagePositionButton">
+                                <rect key="frame" x="157.5" y="360" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.7873421746" green="0.93532107490000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="EHc-bF-5lN"/>
+                                    <constraint firstAttribute="width" constant="60" id="nu8-S8-zgT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="左边" image="Image">
+                                    <color key="titleColor" red="0.37122459880000003" green="0.42284043360000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="ln_titleImageMargin">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="ln_imagePosition">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="u6L-At-itP" firstAttribute="top" secondItem="nVP-QK-3Dq" secondAttribute="bottom" constant="40" id="DNz-k2-jfe"/>
+                            <constraint firstItem="9ZX-W9-Lsh" firstAttribute="top" secondItem="aEf-k8-Xbq" secondAttribute="bottom" constant="40" id="KOc-54-0v0"/>
+                            <constraint firstItem="aEf-k8-Xbq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R1Z-T7-b66"/>
+                            <constraint firstItem="nVP-QK-3Dq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tdk-XB-3OS"/>
+                            <constraint firstItem="9ZX-W9-Lsh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cEt-86-7fV"/>
+                            <constraint firstItem="u6L-At-itP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dMV-d7-eZp"/>
+                            <constraint firstItem="aEf-k8-Xbq" firstAttribute="top" secondItem="u6L-At-itP" secondAttribute="bottom" constant="40" id="i3K-bl-Zli"/>
+                            <constraint firstItem="nVP-QK-3Dq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="wTh-RU-O2P"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="buton1" destination="nVP-QK-3Dq" id="Rz4-w0-Jfo"/>
+                        <outlet property="button2" destination="u6L-At-itP" id="dlR-Ps-bzU"/>
+                        <outlet property="button3" destination="aEf-k8-Xbq" id="az7-3b-5V0"/>
+                        <outlet property="button4" destination="9ZX-W9-Lsh" id="6DD-pv-FQl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="22" height="22"/>
+    </resources>
+</document>
