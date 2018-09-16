@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		585CFC5197652D61D206269A /* libPods-LNCommonFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFA663D38827686662E088E /* libPods-LNCommonFramework.a */; };
 		C7AEA1C2214CD5CE00AACEAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AEA1C1214CD5CE00AACEAF /* AppDelegate.m */; };
 		C7AEA1C5214CD5CE00AACEAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AEA1C4214CD5CE00AACEAF /* ViewController.m */; };
 		C7AEA1C8214CD5CE00AACEAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AEA1C6214CD5CE00AACEAF /* Main.storyboard */; };
@@ -14,9 +15,14 @@
 		C7AEA1CD214CD5CF00AACEAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AEA1CB214CD5CF00AACEAF /* LaunchScreen.storyboard */; };
 		C7AEA1D0214CD5CF00AACEAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AEA1CF214CD5CF00AACEAF /* main.m */; };
 		C7AEA1DF214CE88300AACEAF /* LNImagePositionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AEA1DE214CE88300AACEAF /* LNImagePositionButton.m */; };
+		C7AEA1E2214DF12A00AACEAF /* LNNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AEA1E1214DF12A00AACEAF /* LNNetworkManager.m */; };
+		C7AEA1E6214DFEA000AACEAF /* LNProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AEA1E5214DFEA000AACEAF /* LNProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FFA663D38827686662E088E /* libPods-LNCommonFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LNCommonFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2637429E82E08579561559A0 /* Pods-LNCommonFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNCommonFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LNCommonFramework/Pods-LNCommonFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		B408A28D02461A6A87FD5FD5 /* Pods-LNCommonFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNCommonFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNCommonFramework/Pods-LNCommonFramework.release.xcconfig"; sourceTree = "<group>"; };
 		C7AEA1BD214CD5CE00AACEAF /* LNCommonFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNCommonFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AEA1C0214CD5CE00AACEAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7AEA1C1214CD5CE00AACEAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +35,11 @@
 		C7AEA1CF214CD5CF00AACEAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7AEA1DD214CE88300AACEAF /* LNImagePositionButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNImagePositionButton.h; sourceTree = "<group>"; };
 		C7AEA1DE214CE88300AACEAF /* LNImagePositionButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNImagePositionButton.m; sourceTree = "<group>"; };
+		C7AEA1E0214DF12A00AACEAF /* LNNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNNetworkManager.h; sourceTree = "<group>"; };
+		C7AEA1E1214DF12A00AACEAF /* LNNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNNetworkManager.m; sourceTree = "<group>"; };
+		C7AEA1E3214DF19200AACEAF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C7AEA1E4214DFEA000AACEAF /* LNProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNProgressHUD.h; sourceTree = "<group>"; };
+		C7AEA1E5214DFEA000AACEAF /* LNProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585CFC5197652D61D206269A /* libPods-LNCommonFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		399C5D49615F9FD1BFBD9973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FFA663D38827686662E088E /* libPods-LNCommonFramework.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75AFEB5B28C7E1462B59B799 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2637429E82E08579561559A0 /* Pods-LNCommonFramework.debug.xcconfig */,
+				B408A28D02461A6A87FD5FD5 /* Pods-LNCommonFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C7AEA1B4214CD5CE00AACEAF = {
 			isa = PBXGroup;
 			children = (
 				C7AEA1BF214CD5CE00AACEAF /* LNCommonFramework */,
 				C7AEA1BE214CD5CE00AACEAF /* Products */,
+				75AFEB5B28C7E1462B59B799 /* Pods */,
+				399C5D49615F9FD1BFBD9973 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +101,7 @@
 				C7AEA1C9214CD5CF00AACEAF /* Assets.xcassets */,
 				C7AEA1CB214CD5CF00AACEAF /* LaunchScreen.storyboard */,
 				C7AEA1CE214CD5CF00AACEAF /* Info.plist */,
+				C7AEA1E3214DF19200AACEAF /* PrefixHeader.pch */,
 				C7AEA1CF214CD5CF00AACEAF /* main.m */,
 			);
 			path = LNCommonFramework;
@@ -80,6 +112,10 @@
 			children = (
 				C7AEA1DD214CE88300AACEAF /* LNImagePositionButton.h */,
 				C7AEA1DE214CE88300AACEAF /* LNImagePositionButton.m */,
+				C7AEA1E0214DF12A00AACEAF /* LNNetworkManager.h */,
+				C7AEA1E1214DF12A00AACEAF /* LNNetworkManager.m */,
+				C7AEA1E4214DFEA000AACEAF /* LNProgressHUD.h */,
+				C7AEA1E5214DFEA000AACEAF /* LNProgressHUD.m */,
 			);
 			path = LiuNing;
 			sourceTree = "<group>";
@@ -91,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7AEA1D3214CD5CF00AACEAF /* Build configuration list for PBXNativeTarget "LNCommonFramework" */;
 			buildPhases = (
+				861EA01C8568FED8D2A8E8CC /* [CP] Check Pods Manifest.lock */,
 				C7AEA1B9214CD5CE00AACEAF /* Sources */,
 				C7AEA1BA214CD5CE00AACEAF /* Frameworks */,
 				C7AEA1BB214CD5CE00AACEAF /* Resources */,
+				131244AFE51626F000FE9EAA /* [CP] Embed Pods Frameworks */,
+				89DE64FEA6308E49948D8896 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -115,11 +154,13 @@
 				TargetAttributes = {
 					C7AEA1BC214CD5CE00AACEAF = {
 						CreatedOnToolsVersion = 9.4;
+						DevelopmentTeam = TFBRG7ET9B;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = C7AEA1B8214CD5CE00AACEAF /* Build configuration list for PBXProject "LNCommonFramework" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -149,14 +190,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		131244AFE51626F000FE9EAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LNCommonFramework/Pods-LNCommonFramework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		861EA01C8568FED8D2A8E8CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LNCommonFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89DE64FEA6308E49948D8896 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LNCommonFramework/Pods-LNCommonFramework-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LNCommonFramework/Pods-LNCommonFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7AEA1B9214CD5CE00AACEAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7AEA1E6214DFEA000AACEAF /* LNProgressHUD.m in Sources */,
 				C7AEA1C5214CD5CE00AACEAF /* ViewController.m in Sources */,
 				C7AEA1D0214CD5CF00AACEAF /* main.m in Sources */,
 				C7AEA1DF214CE88300AACEAF /* LNImagePositionButton.m in Sources */,
+				C7AEA1E2214DF12A00AACEAF /* LNNetworkManager.m in Sources */,
 				C7AEA1C2214CD5CE00AACEAF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,15 +392,14 @@
 		};
 		C7AEA1D4214CD5CF00AACEAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2637429E82E08579561559A0 /* Pods-LNCommonFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TFBRG7ET9B;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LNCommonFramework/PrefixHeader.pch";
 				INFOPLIST_FILE = LNCommonFramework/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LN.LNCommonFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,15 +408,14 @@
 		};
 		C7AEA1D5214CD5CF00AACEAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B408A28D02461A6A87FD5FD5 /* Pods-LNCommonFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TFBRG7ET9B;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LNCommonFramework/PrefixHeader.pch";
 				INFOPLIST_FILE = LNCommonFramework/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LN.LNCommonFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -26,4 +26,5 @@ UIKIT_EXTERN LNButtonImagePositon const LNButtonImagePositonBottom;
  设置标题和图片之间的间隔
  */
 @property (nonatomic, assign)IBInspectable CGFloat ln_titleImageMargin;
+
 @end
