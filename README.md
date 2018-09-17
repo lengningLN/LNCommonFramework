@@ -1,5 +1,5 @@
 # LNCommonFramework
-把常用的一些设置封装成小工具，简化开发的过程。
+把常用的一些设置封装成小工具，简化开发的过程。本工程使用cocoadpods加载，所以下载后需要执行pod install，才能正确执行
 
 ## 体用简化的UI类
 ### LNImagePositionButton
