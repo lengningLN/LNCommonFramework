@@ -61,6 +61,7 @@ NSString * const ZYTextFieldDeleteClickKey = @"ZYTextFieldDeleteClickKey";
     if (label && [label respondsToSelector:@selector(textColor)]) {
         return label.textColor;
     }
+
     return nil;
 }
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		585CFC5197652D61D206269A /* libPods-LNCommonFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFA663D38827686662E088E /* libPods-LNCommonFramework.a */; };
+		C70EF61C2150564B008886D3 /* LNMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C70EF61B2150564B008886D3 /* LNMethod.m */; };
 		C7841D5C214F8CA700CF4183 /* NSAttributedString+LNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7841D5B214F8CA700CF4183 /* NSAttributedString+LNExtension.m */; };
 		C7841D60214F8F6D00CF4183 /* LNTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C7841D5F214F8F6D00CF4183 /* LNTextField.m */; };
 		C7841D63214F905000CF4183 /* LNTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7841D62214F905000CF4183 /* LNTextView.m */; };
@@ -27,6 +28,8 @@
 		1FFA663D38827686662E088E /* libPods-LNCommonFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LNCommonFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2637429E82E08579561559A0 /* Pods-LNCommonFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNCommonFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LNCommonFramework/Pods-LNCommonFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		B408A28D02461A6A87FD5FD5 /* Pods-LNCommonFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNCommonFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNCommonFramework/Pods-LNCommonFramework.release.xcconfig"; sourceTree = "<group>"; };
+		C70EF61A2150564B008886D3 /* LNMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNMethod.h; sourceTree = "<group>"; };
+		C70EF61B2150564B008886D3 /* LNMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNMethod.m; sourceTree = "<group>"; };
 		C7841D5A214F8CA700CF4183 /* NSAttributedString+LNExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+LNExtension.h"; sourceTree = "<group>"; };
 		C7841D5B214F8CA700CF4183 /* NSAttributedString+LNExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+LNExtension.m"; sourceTree = "<group>"; };
 		C7841D5D214F8DD100CF4183 /* LiuNing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiuNing.h; sourceTree = "<group>"; };
@@ -130,14 +133,16 @@
 				C7AEA1E1214DF12A00AACEAF /* LNNetworkManager.m */,
 				C7AEA1E4214DFEA000AACEAF /* LNProgressHUD.h */,
 				C7AEA1E5214DFEA000AACEAF /* LNProgressHUD.m */,
-				C7841D5A214F8CA700CF4183 /* NSAttributedString+LNExtension.h */,
-				C7841D5B214F8CA700CF4183 /* NSAttributedString+LNExtension.m */,
 				C7841D5E214F8F6D00CF4183 /* LNTextField.h */,
 				C7841D5F214F8F6D00CF4183 /* LNTextField.m */,
 				C7841D61214F905000CF4183 /* LNTextView.h */,
 				C7841D62214F905000CF4183 /* LNTextView.m */,
 				C7841D64214F911500CF4183 /* NSString+LNExtension.h */,
 				C7841D65214F911500CF4183 /* NSString+LNExtension.m */,
+				C7841D5A214F8CA700CF4183 /* NSAttributedString+LNExtension.h */,
+				C7841D5B214F8CA700CF4183 /* NSAttributedString+LNExtension.m */,
+				C70EF61A2150564B008886D3 /* LNMethod.h */,
+				C70EF61B2150564B008886D3 /* LNMethod.m */,
 			);
 			path = LiuNing;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				C7841D63214F905000CF4183 /* LNTextView.m in Sources */,
 				C7AEA1C5214CD5CE00AACEAF /* ViewController.m in Sources */,
 				C7841D60214F8F6D00CF4183 /* LNTextField.m in Sources */,
+				C70EF61C2150564B008886D3 /* LNMethod.m in Sources */,
 				C7AEA1D0214CD5CF00AACEAF /* main.m in Sources */,
 				C7AEA1DF214CE88300AACEAF /* LNImagePositionButton.m in Sources */,
 				C7AEA1E2214DF12A00AACEAF /* LNNetworkManager.m in Sources */,
